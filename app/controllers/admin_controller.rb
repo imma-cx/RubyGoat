@@ -6,6 +6,8 @@ class AdminController < ApplicationController
 
   def dashboard
   end
+  
+  #adding a comment to trigger a scan
 
   def analytics
     if params[:field].nil?
