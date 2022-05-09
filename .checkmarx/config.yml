@@ -13,7 +13,7 @@ checkmarx:
   scan:
     # scan tags. can be in a key-value format OR "label" format where the value is an empty string.
     tags: 
-      "example": "test"
+      'testing' : 'test'
       # example: "priority": "high"
       # example: "test": ""
 
